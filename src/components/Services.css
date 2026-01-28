@@ -1,0 +1,92 @@
+.services {
+  padding: 70px 20px;       /* vertical + lateral */
+  background: #ffffff;
+  max-width: 1200px;        /* igual que what-is */
+  margin: 0 auto;           /* centra el contenedor en la pantalla */
+  text-align: left;         /* título alineado a la izquierda dentro del contenedor */
+}
+
+.services-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #17801d;
+  margin-bottom: 15px;
+}
+
+.services-subtitle {
+
+  font-size: 1.05rem;
+  color: #4b5563;
+  margin-bottom: 50px;
+}
+
+.services-grid {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.service-card {
+  background: #ffffff;
+  padding: 30px 20px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+}
+
+.service-icon {
+  font-size: 2rem;
+  color: #1f2937;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 0.95rem;
+  color: #6b7280;
+}
+
+.services-note {
+  margin-top: 40px;
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+.services-cta {
+  margin-top: 30px;
+}
+
+.services-cta p {
+  margin-bottom: 8px;
+  color: #4b5563;
+}
+
+.services-link {
+  color: #1f2937;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.services-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}

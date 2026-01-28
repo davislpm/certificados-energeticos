@@ -1,0 +1,68 @@
+/* Fondo completo */
+.pricing-wrapper {
+  background: #ffffff;
+  padding: 20px 0;
+}
+
+/* Contenido centrado */
+.pricing {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+}
+
+/* Título */
+.pricing-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: #17801d;
+}
+
+/* Grid de precios */
+.pricing-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* Tarjeta */
+.pricing-card {
+  background: #f9fafb;
+  padding: 30px 20px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+}
+
+.pricing-card h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+/* Destacado */
+.pricing-card.highlight {
+  background: #f2f7f4;
+}
+
+/* Nota */
+.pricing-note {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .pricing-cards {
+    grid-template-columns: 1fr;
+  }
+}
