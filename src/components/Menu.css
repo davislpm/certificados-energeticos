@@ -46,7 +46,6 @@
   cursor: pointer;
 }
 
-/* MÓVIL */
 @media (max-width: 768px) {
   .nav-links {
     position: absolute;
