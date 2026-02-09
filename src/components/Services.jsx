@@ -26,7 +26,7 @@ const servicesList = [
 ];
 
 const Services = () => (
-  <section className="services">
+  <section id="process" className="section services">
     <h2 className="services-title">¿Qué incluye el servicio?</h2>
     <p className="services-subtitle">
       Todo lo necesario para obtener tu certificado energético de forma rápida y sencilla.

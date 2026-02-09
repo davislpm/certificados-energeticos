@@ -6,3 +6,18 @@ body {
   color: #1f2937;
   background-color: #fff;
 }
+.section {
+  padding: 60px 20px;
+  
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 40px 16px;
+    scroll-margin-top: 220px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+  }
+}

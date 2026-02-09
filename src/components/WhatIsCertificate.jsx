@@ -3,7 +3,7 @@ import './WhatIsCertificate.css';
 import WhatisImg from '../images/Cert.png'; // imagen desde src/images
 
 const WhatIsCertificate = () => (
-  <section className="what-is">
+  <section id="what-is" className="section what-is">
     <h2 className="what-is-title">
       ¿Qué es un Certificado Energético?
     </h2>

@@ -5,7 +5,7 @@ import HeroImage from '../images/Hero.png'; // imagen desde src/images
 const Hero = () => (
   <>
     {/* Hero principal */}
-    <header className="hero">
+    <header id="hero" className="hero">
       <img src={HeroImage} alt="Madrid eficiencia energética" className="hero-img" />
       <div className="hero-content">
         <h1>Certificado Energético en Madrid</h1>

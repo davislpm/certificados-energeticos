@@ -3,7 +3,7 @@ import './Footer.css';
 import { FaWhatsapp, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => (
-  <footer className="footer">
+  <footer id="footer" className="footer">
     <div className="footer-container">
       
       {/* Columnas */}
